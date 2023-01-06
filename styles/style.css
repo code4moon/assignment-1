@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg-container {
+  background-image: url("../images/banner/banner1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.header-section {
+  text-align: right;
+  padding: 200px;
+}
+.heading-primary {
+  font-weight: 600;
+  font-size: 55px;
+  color: #151414;
+  font-family: "Open Sans", sans-serif;
+}
+.heading-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+.btn-primary {
+  margin-top: 10px;
+  width: 160px;
+  height: 64px;
+  background: #f15b22;
+  border-radius: 5px;
+  border-style: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+/* styling for main section */
+.main-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 120px;
+}
+.main-description {
+  justify-content: left;
+  padding: 120px;
+}
+.main-section-heading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  font-family: "Open Sans", sans-serif;
+}
+.main-section-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-top: 12px;
+}
+.main-section-sub-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+.material-symbols-outlined {
+  color: rgb(8, 248, 8);
+}
+
+/* styling my plans section */
+
+.my-plans {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+
+.my-plans-section {
+  display: flex;
+  padding: 60px 100px;
+  gap: 60px;
+  justify-content: center;
+}
+.myplan-subject {
+  text-align: center;
+}
+.myplan-subject-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+}
+.myplan-subject-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
+
+/* myplan-section-bottom-image */
+.myplan-bottom-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/watch.png"),
+    linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+}
