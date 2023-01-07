@@ -1,7 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  border-style: border-box;
+  font-family: sans-serif;
 }
+
+/* styling header section */
+
 .bg-container {
   background-image: url("../images/banner/banner1.png");
   background-size: cover;
@@ -16,48 +21,47 @@
   font-weight: 600;
   font-size: 55px;
   color: #151414;
-  font-family: "Open Sans", sans-serif;
 }
 .heading-description {
   font-weight: 400;
   font-size: 16px;
+  margin-top: 16px;
   line-height: 26px;
   color: #444343;
 }
 .btn-primary {
-  margin-top: 10px;
-  width: 160px;
-  height: 64px;
+  margin-top: 16px;
+  width: 140px;
+  height: 54px;
   background: #f15b22;
   border-radius: 5px;
   border-style: none;
   color: #ffffff;
   font-weight: 600;
   font-size: 20px;
-  line-height: 23px;
 }
 
 /* styling for main section */
+li {
+  list-style: none;
+}
 .main-section {
   display: flex;
   justify-content: space-around;
   padding: 120px;
 }
 .main-description {
-  justify-content: left;
   padding: 120px;
 }
 .main-section-heading {
   font-weight: 700;
   font-size: 40px;
-  line-height: 47px;
   color: #151414;
-  font-family: "Open Sans", sans-serif;
 }
 .main-section-paragraph {
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 20px;
   color: #444343;
   margin-top: 12px;
 }
@@ -66,7 +70,9 @@
   font-size: 16px;
   line-height: 26px;
   color: #444343;
+  margin-top: 10px;
 }
+
 .material-symbols-outlined {
   color: rgb(8, 248, 8);
 }
@@ -96,37 +102,46 @@
 }
 .myplan-subject-description {
   font-weight: 500;
-  font-size: 25px;
+  font-size: 20px;
   color: #737272;
+  margin-top: 8px;
 }
 
-/* myplan-section-bottom-image */
-.myplan-bottom-image {
+/* myplan-section-gradient-image */
+.myplan-gradient-image {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("../images/watch.png"),
-    linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url("../images/watch.png");
   width: 1140px;
   height: 300px;
-  margin-left: 100px;
+  margin-left: 120px;
+  margin-bottom: 100px;
+  border-radius: 8px;
 }
-.heading-myplan-bottom-image {
+.heading-myplan-gradient-image {
   color: #ffffff;
-  font-weight: 700;
-  font-size: 40px;
+  font-weight: 600;
+  font-size: 32px;
 }
 .content-myplan {
   padding: 60px;
+  text-align: left;
 }
 .btn-myplan {
   color: #f15b22;
   font-weight: 600;
   font-size: 20px;
   text-align: center;
-  width: 160px;
-  height: 64px;
+  width: 140px;
+  height: 54px;
   border-style: none;
   border-radius: 6px;
+  margin-top: 12px;
 }
 
 /* styling footer section */
@@ -134,30 +149,63 @@
 .footer-section {
   display: flex;
   background-color: #151414;
-  padding: 80px;
+  padding: 120px;
   justify-content: space-between;
 }
 .heading-footer {
   font-weight: 700;
   font-size: 45px;
-  color: #f8f8f8;
+  color: #ffffff;
 }
 .footer-description {
-  color: #f8f8f8;
+  color: #ffffff;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 26px;
+  margin-top: 12px;
+}
+.footer-email {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.icons {
+  padding: 6px;
+  margin-top: 20px;
 }
 .footer-left {
-  padding: 20px 20px;
+  padding: 40px;
 }
 .footer-right {
-  padding: 20px;
+  padding: 40px;
 }
 .heading-subscribe {
   color: #ffffff;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 24px;
+}
+
+form input {
+  width: 280px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: 2px solid white;
+  background: transparent;
+  color: #ffffff;
+}
+
+form button {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 10px 30px;
+  color: #f15b22;
+  font-size: 14px;
 }
 
 /* extra one section styling */
@@ -176,23 +224,21 @@
   font-weight: 600;
   font-size: 55px;
   color: #ffffff;
-  font-family: "Open Sans", sans-serif;
 }
 .heading-description1 {
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  margin-top: 16px;
   color: #ffffff;
 }
 .btn-primary1 {
   margin-top: 10px;
-  width: 160px;
-  height: 64px;
+  width: 140px;
+  height: 54px;
   background: #ffffff;
   border-radius: 5px;
   border-style: none;
   color: #005fac;
   font-weight: 600;
   font-size: 20px;
-  line-height: 23px;
 }
