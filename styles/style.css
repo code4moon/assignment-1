@@ -5,7 +5,7 @@
   font-family: sans-serif;
 }
 
-/* styling header section */
+/* styling-header-section */
 
 .bg-container {
   background-image: url("../images/banner/banner1.png");
@@ -41,7 +41,8 @@
   font-size: 20px;
 }
 
-/* styling for main section */
+/* styling-for-main-section */
+
 li {
   list-style: none;
 }
@@ -77,16 +78,16 @@ li {
   color: rgb(8, 248, 8);
 }
 
-/* styling my plans section */
+/* styling-my-plans-section */
 
-.my-plans {
+.my-plan-header {
   text-align: center;
   font-weight: 700;
   font-size: 40px;
   color: #151414;
 }
 
-.my-plans-section {
+.my-plan-section {
   display: flex;
   padding: 60px 100px;
   gap: 60px;
@@ -107,8 +108,9 @@ li {
   margin-top: 8px;
 }
 
-/* myplan-section-gradient-image */
-.myplan-gradient-image {
+/* gradient-image-section-styling */
+
+.gradient-image-container {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: linear-gradient(
@@ -123,16 +125,16 @@ li {
   margin-bottom: 100px;
   border-radius: 8px;
 }
-.heading-myplan-gradient-image {
+.heading-gradient-image {
   color: #ffffff;
   font-weight: 600;
   font-size: 32px;
 }
-.content-myplan {
+.gradient-content {
   padding: 60px;
   text-align: left;
 }
-.btn-myplan {
+.btn-gradient {
   color: #f15b22;
   font-weight: 600;
   font-size: 20px;
